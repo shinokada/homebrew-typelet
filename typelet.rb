@@ -7,6 +7,7 @@ class Typelet < Formula
   
     depends_on "figlet"
     depends_on "curl"
+    depends_on "gh"
   
     def install
       bin.install 'typelet'
