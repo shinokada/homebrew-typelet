@@ -11,6 +11,8 @@ class Typelet < Formula
   
     def install
       bin.install 'typelet'
-      bin.install 'typelet_getoptions.sh'
+      prefix.install Dir["lib"]
+      prefix.install "README.md"
+      prefix.install "LICENSE"
     end
   end
