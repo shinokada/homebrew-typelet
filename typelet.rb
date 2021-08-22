@@ -1,8 +1,8 @@
 class Typelet < Formula
     desc "Typelet creates and adds large words print it with a typewriter effect."
     homepage "https://github.com/shinokada/typelet"
-    url "https://github.com/shinokada/typelet/archive/refs/tags/v0.4.4.tar.gz"
-    sha256 "6abad2424914034525d1eb756f5c63fb5217f604a5637aca77c0aaad83de2d4a"
+    url "https://github.com/shinokada/typelet/archive/refs/tags/v0.4.5.tar.gz"
+    sha256 "ecb0cdbf0109d9dd52da0f1373236f2d7b5597c169cf3c6ad4e74f1b51a50456"
     license "MIT"
   
     depends_on "figlet"
